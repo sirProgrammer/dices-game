@@ -1,6 +1,7 @@
 .container {
   width: 70%;
   margin: auto;
+  
   text-align: center;
   display: flexbox;
 }
@@ -82,5 +83,7 @@ footer {
   img {
     width: 60%;
   }
+  .container{
+    margin-top:200px;
   
 }
