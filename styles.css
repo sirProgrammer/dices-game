@@ -1,0 +1,86 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flexbox;
+}
+
+.dice {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+
+}
+.dices{
+  text-align: center;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.playButton{
+  margin-top: 50px;
+  border-radius: 20px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4ECCA3;
+  width: 300px;
+  height: 50px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #393E46;
+
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.visibility{
+  visibility: hidden;
+}
+.winner {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+@media (max-width:800px){
+  .dice{
+    width: 150px;
+   
+    
+
+  }
+  img {
+    width: 60%;
+  }
+  
+}
