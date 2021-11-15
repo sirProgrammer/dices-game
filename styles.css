@@ -82,5 +82,8 @@ footer {
   img {
     width: 60%;
   }
+  .container{
+    height: 50%;
+  }
   
 }
